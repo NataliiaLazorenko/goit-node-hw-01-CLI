@@ -23,7 +23,7 @@ async function getContactById(contactId) {
     );
 
     if (foundContact) {
-      return foundContact;
+      return [foundContact];
     } else {
       return "There is no contact with such id";
     }
