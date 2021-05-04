@@ -8,7 +8,11 @@
 
 ## Screenshots:
 
-- [Cet list of all contacts](https://github.com/NataliiaLazorenko/goit-node-hw-01-CLI/blob/main/screenshots/Get-contacts-list.jpg)
-- [Get contact by id](https://github.com/NataliiaLazorenko/goit-node-hw-01-CLI/blob/main/screenshots/Get-contact-by-id.jpg)
-- [Add new contact](https://github.com/NataliiaLazorenko/goit-node-hw-01-CLI/blob/main/screenshots/Add-contact.jpg)
-- [Remove contact by id](https://github.com/NataliiaLazorenko/goit-node-hw-01-CLI/blob/main/screenshots/Remove-contact-by-id.jpg)
+- Cet list of all contacts:
+  ![screenshot](https://github.com/NataliiaLazorenko/goit-node-hw-01-CLI/blob/main/screenshots/Get-contacts-list.jpg)
+- Get contact by id:
+  ![screenshot](https://github.com/NataliiaLazorenko/goit-node-hw-01-CLI/blob/main/screenshots/Get-contact-by-id.jpg)
+- Add new contact:
+  ![screenshot](https://github.com/NataliiaLazorenko/goit-node-hw-01-CLI/blob/main/screenshots/Add-contact.jpg)
+- Remove contact by id:
+  ![screenshot](https://github.com/NataliiaLazorenko/goit-node-hw-01-CLI/blob/main/screenshots/Remove-contact-by-id.jpg)

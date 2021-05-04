@@ -1,6 +1,16 @@
-const fs = require("fs").promises;
-const path = require("path");
-const shortid = require("shortid");
+// =============== CommonJS modules ===============
+// const shortid = require("shortid");
+// const fs = require("fs").promises;
+// const path = require("path");
+
+// =============== ECMAScript modules ===============
+import shortid from "shortid";
+import fs from "fs/promises";
+import path from "path";
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const contactsPath = path.join(__dirname, "db", "contacts.json");
 
@@ -72,4 +82,12 @@ async function removeContact(contactId) {
   }
 }
 
-module.exports = { listContacts, getContactById, addContact, removeContact };
+const contactsFunctions = {
+  listContacts,
+  getContactById,
+  addContact,
+  removeContact,
+};
+
+export default contactsFunctions;
+// module.exports = { listContacts, getContactById, addContact, removeContact };

@@ -1,5 +1,10 @@
-const { Command } = require("commander");
-const contacts = require("./contacts");
+// =============== CommonJS modules ===============
+// const { Command } = require("commander");
+// const contacts = require("./contacts");
+
+// =============== ECMAScript modules ===============
+import { Command } from "commander";
+import contacts from "./contacts.js";
 
 const program = new Command();
 program
